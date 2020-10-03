@@ -1,0 +1,10 @@
+<launch>
+  <!-- send Panda urdf to parameter server -->
+<param name="robot_description" textfile="$(find arm_table_setup_home_g1)/urdf/arm_table_setup_home_g1.urdf"/>
+
+  <include file="$(find arm_moveit_config)/launch/planning_context.launch"/>
+
+  <node name="planning_scene" pkg="moveit_ops" type="planning_scene" respawn="false" output="screen">
+    <rosparam command="load" file="$(find arm_moveit_config)/config/kinematics.yaml"/>
+  </node>
+</launch>
