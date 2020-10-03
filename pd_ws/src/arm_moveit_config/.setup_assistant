@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: arm_table_setup_home_g1
+    relative_path: urdf/arm_table_setup_home_g1.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/arm_table_setup_home_g1.srdf
+  CONFIG:
+    author_name: ghanashyam
+    author_email: gscourses1489@gmail.com
+    generated_timestamp: 1593502088

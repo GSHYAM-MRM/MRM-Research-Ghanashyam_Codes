@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_gripper_controller
+    joints:
+      - panda_finger_joint1
+  - name: fake_arm_controller
+    joints:
+      - q1
+      - q2
+      - q3
+      - q4
+      - q5
+      - q6
+      - q7

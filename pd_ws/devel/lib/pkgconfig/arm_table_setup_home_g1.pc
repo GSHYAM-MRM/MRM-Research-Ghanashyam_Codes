@@ -1,0 +1,8 @@
+prefix=/home/ghans/pd_ws/devel
+
+Name: arm_table_setup_home_g1
+Description: Description of arm_table_setup_home_g1
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
