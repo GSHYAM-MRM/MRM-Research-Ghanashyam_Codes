@@ -1,2 +1,0 @@
-arm_moveit_config:arm_table_setup_home_g1:moveit_ops
--DCATKIN_DEVEL_PREFIX=/home/ghans/pd_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ghans/pd_ws/install -G Unix Makefiles
